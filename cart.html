@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Bean Boutique Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="home" class="content">
+        <header>
+            <div class="nav">
+                <h1>Bean <span>Boutique</span></h1>
+                <nav>
+                    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                    <ul id="navlink">
+                        <li class="navbar"><a href="index.html">Home</a></li>
+                        <li class="navbar"><a href="Menu.html">Coffee Selection</a></li>
+                        <li class="navbar"><a href="eventandworkshop.html">Event and Workshop</a></li>
+                        <li class="navbar"><a href="BrewingEquipment.html">Brewing Equipment</a></li>
+                        <li class="navbar"><a href="Specialoffer.html">Special Offers</a></li>
+                        <li class="navbar"><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="card">
+            <div class="card">
+                <br>
+                <h2>Shopping Cart</h2>
+                <br>  
+                <div class="card-grid">
+                    <div class="card-item">
+                        <h3>Automatic Drip Coffee Maker</h3>
+                        <img src="image/AutomaticDripCoffeeMaker.jpg" alt="Automatic Drip Coffee Maker">
+                        <span>$250</span>
+                        <div class="card-quantity">
+                            <label for="quantity2">Quantity:</label>
+                            <input type="number" id="quantity2" name="quantity3" min="1" value="1">
+                        </div>
+                        <a href="#" class="Cardremove-btn">Remove</a>
+                    </div>
+                    <div class="card-item">
+                        <h3>Macchiato</h3>
+                        <img src="image/Macchiato.jpg" alt="Macchiato">
+                        <span>$3.75</span>
+                        <div class="card-quantity">
+                            <label for="quantity5">Quantity:</label>
+                            <input type="number" id="quantity5" name="quantity6" min="1" value="1">
+                        </div>
+                        <a href="#" class="Cardremove-btn">Remove</a>
+                    </div>
+                    <div class="card-item">
+                        <h3>Coffee Robusta</h3>
+                        <img src="image/Robusta(Coffeacanephora).jpg" alt="Coffee Robusta">
+                        <span>$3.50</span>
+                        <div class="card-quantity">
+                            <label for="quantity8">Quantity:</label>
+                            <input type="number" id="quantity8" name="quantity9" min="1" value="1">
+                        </div>
+                        <a href="#" class="Cardremove-btn">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <hr>
+    <section class="cart-summary">
+        <h2>Order Summary</h2>
+        <p><strong>Subtotal:</strong> $257.25</p>
+        <p><strong>Tax:</strong> $30</p>
+        <p><strong>Total:</strong> $287.25</p>
+        <a href="#" class="checkout-btn">Checkout</a>
+    </section>
+    <br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>About Us</h2>
+                <p>At Coffee Haven, we are passionate about brewing the best coffee from around the world. Join us in our cozy cafe to enjoy a cup of perfection.</p>
+            </div>
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <p>Email: thuta4317@gmail.com</p>
+                <p>Phone: +95 9764397716</p>
+                <p>Address: Yangon,kamaryut Township, Time City</p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Twitter</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffee Bean Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

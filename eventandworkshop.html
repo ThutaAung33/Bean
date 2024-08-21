@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="register.js"></script>
+</head>
+<body>
+    <img src="image/coffeeeventandworkshop.jpg" alt="" id="content-img">
+    
+    <section id="home" class="content">
+        <header>
+            <div class="nav">
+                <h1>Bean <span>Boutique</span></h1>
+                <nav>
+                    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                    <ul id="navlink">
+                        <li class="navbar"><a href="index.html">Home</a></li>
+                        <li class="navbar"><a href="Menu.html">Coffee Selection</a></li>
+                        <li class="navbar"><a href="eventandworkshop.html">Event and Workshop</a></li>
+                        <li class="navbar"><a href="BrewingEquipment.html">Brewing Equipment</a></li>
+                        <li class="navbar"><a href="Specialoffer.html">Special Offers</a></li>
+                        <li class="navbar"><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Register now to participate in the events and workshops you like!</h1>
+        </div>
+    </section>
+    <br>
+    <br>
+    <div class="container">
+        <h2>Event and Workshop</h2>
+        <br>  
+        <div class="event-grid">
+            <div class="event-item">
+                <h3>A Brewing Workshop</h3>
+                <p><strong>Date:</strong> September 15, 2024</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 10:00 AM to 4:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+            <div class="event-item">
+                <h3>On Brewing Techniques</h3>
+                <p><strong>Date:</strong> March 3, 2025</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 9:00 AM to 12:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="event-grid">
+            <div class="event-item">
+                <h3> A Coffee Connoisseur's Day</h3>
+                <p><strong>Date:</strong> April 7, 2025</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 11:00 AM to 2:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+            <div class="event-item">
+                <h3>A Barista Workshop</h3>
+                <p><strong>Date:</strong> November 3, 2024</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 12:00 PM to 3:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="event-grid">
+            <div class="event-item">
+                <h3>A Day of Coffee Mastery</h3>
+                <p><strong>Date:</strong> April 7, 2025</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 3:00 AM to 6:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+            <div class="event-item">
+                <h3>A Coffee Brewing Bonanza</h3>
+                <p><strong>Date:</strong> November 3, 2024</p>
+                <p><strong>Location:</strong> Kamaryut, Time City, Bean Boutique</p>
+                <p><strong>Time:</strong> 10:00 AM to 1:00 PM</p>
+                <button class="confirm" onclick="openRegistrationForm()">Register</button>
+            </div>
+        </div>
+    </div>
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeRegistrationForm()">&times;</span>
+            <form id="registration-form" action="mailto:thuta4317@gmail.com" method="post">
+                <h2>Register for the Event</h2>
+                <label for="fastname">Fast Name:</label>
+                <input type="text" id="fastname" name="fastlname" required>
+                
+                <label for="lastname">last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="event-select">Choose an Event:</label>
+                <select id="event-select" name="event">
+                    <option value="brewing-workshop">A Brewing Workshop</option>
+                    <option value="brewing-techniques">On Brewing Techniques</option>
+                    <option value="connoisseurs-day">A Coffee Connoisseur's Day</option>
+                    <option value="barista-workshop">A Barista Workshop</option>
+                    <option value="coffee-mastery">A Day of Coffee Mastery</option>
+                    <option value="brewing-bonanza">A Coffee Brewing Bonanza</option>
+                </select>
+    
+                <button type="submit" class="submit-button">Submit</button>
+                <button type="button" onclick="closeRegistrationForm()" class="cancel-button">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>About Us</h2>
+                <p>At Coffee Haven, we are passionate about brewing the best coffee from around the world. Join us in our cozy cafe to enjoy a cup of perfection.</p>
+            </div>
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <p>Email: thuta4317@gmail.com</p>
+                <p>Phone: +95 9764397716</p>
+                <p>Address: Yangon,kamaryut Township, Time City</p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Twitter</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffee Bean Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

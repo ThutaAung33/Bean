@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="slideshow.js"></script>
+    <script src="searchbar.js"></script>
+    <script src="menuicon.js"></script>
+</head>
+<body>
+    <img src="image/BGIMG.jpg" alt="" id="content-img">
+    
+    <section id="home" class="content">
+        <header>
+            <div class="nav">
+                <h1>Bean <span>Boutique</span></h1>
+                <nav>
+                    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                    <ul id="navlink">
+                        <li class="navbar"><a href="index.html">Home</a></li>
+                        <li class="navbar"><a href="Menu.html">Coffee Selection</a></li>
+                        <li class="navbar"><a href="eventandworkshop.html">Event and Workshop</a></li>
+                        <li class="navbar"><a href="BrewingEquipment.html">Brewing Equipment</a></li>
+                        <li class="navbar"><a href="Specialoffer.html">Special Offers</a></li>
+                        <li class="navbar"><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="container">
+            <h1>Welcome to Bean Boutique</h1>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here....">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Start a nice day with a cup of coffee.</p>
+            <p>Daily Open 9AM to 8PM</p>
+            <a href="Menu.html" class="btn">Our Menu</a>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    <section class="about">
+        <div class="about-text">
+            <h3 class="section-subtitle">About</h3>
+            <p class="section-description">Bean Boutique is a new independent coffee shop founded by longtime Toronto coffee veterans.
+                locally roasted; organic Serving fresh coffee brews made from fair trade coffee beans. Delicious cakes,
+                If you don't have baked goods and delicious sandwiches, they are made with natural ingredients that contain few preservatives.
+                Deceptively spacious seating and cozy front patio. 
+                These are the things that keep customers coming back.</p>
+        </div>
+        <div class="about-image">
+            <img id="Homeslide" src="image/CoffeeSt.jpg" alt="About Bean Boutique ">
+        </div>
+    </section>
+    <section id="Favourites">
+        <div class="Favourites">
+            <hr>
+            <h2>Customer Favourites</h2>
+            <br>  
+            <div class="Favourites-grid">
+                <div class="Favourites-item">
+                    <h3>Macchiato</h3>
+                    <img src="image/Macchiato.jpg" alt="Macchiato">
+                    <p>Espresso with a dash of steamed milk.</p>
+                </div>
+                <div class="Favourites-item">
+                    <h3>Mocha</h3>
+                    <img src="image/Mocha.webp" alt="Mocha">
+                    <p>Espresso with chocolate and steamed milk.</p>
+                </div>
+                <div class="Favourites-item">
+                    <h3>Cold Brew</h3>
+                    <img src="image/ColdBrew.jpg" alt="Cold Brew">
+                    <p>Slow-steeped coffee served cold.</p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h2>Shop Location</h2>
+            <br>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29621.48204128777!2d96.13736583870566!3d16.810936738093893!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb34335a92f5%3A0xea3210d0410309d7!2sTimes%20City%20Yangon!5e1!3m2!1sen!2smm!4v1724046816878!5m2!1sen!2smm" 
+                width="950" height="500" style="border-radius: 50px;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <section>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="mailto:thuta4317@gmail.com" method="post">
+                        <div class="form-group">
+                            <label for="name1">Fast Name</label>
+                            <input type="text" id="name1" name="firstname" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name2">last Name</label>
+                            <input type="text" id="name2" name="lastname" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+        
+                        <div class="form-group">
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <br>
+    <br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>About Us</h2>
+                <p>At Coffee Haven, we are passionate about brewing the best coffee from around the world. Join us in our cozy cafe to enjoy a cup of perfection.</p>
+            </div>
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <p>Email: thuta4317@gmail.com</p>
+                <p>Phone: +95 9764397716</p>
+                <p>Address: Yangon,kamaryut Township, Time City</p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Twitter</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffee Bean Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

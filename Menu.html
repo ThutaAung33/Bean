@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="searchbar.js"></script>
+</head>
+<body>
+<img src="image/Menuimg.jpg" alt="" id="content-img">
+    
+<section id="home" class="content">
+    <header>
+        <div class="nav">
+            <h1>Bean <span>Boutique</span></h1>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul id="navlink">
+                    <li class="navbar"><a href="index.html">Home</a></li>
+                    <li class="navbar"><a href="Menu.html">Coffee Selection</a></li>
+                    <li class="navbar"><a href="eventandworkshop.html">Event and Workshop</a></li>
+                    <li class="navbar"><a href="BrewingEquipment.html">Brewing Equipment</a></li>
+                    <li class="navbar"><a href="Specialoffer.html">Special Offers</a></li>
+                    <li class="navbar"><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1>Order your favourite coffee to make your day happy and freshing.</h1>
+        <br>
+        <br>
+        <br>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </div>
+    </section>
+<section id="menu">
+    <div class="container">
+        <br>
+        <br>
+        <h2>Coffee Menu</h2>
+        <br>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <img src="image/Espresso.jpg" alt=Espresso>
+                <p>Rich and bold espresso shot.</p>
+                <span>$3.00</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <img src="image/Latte.jpg" alt="Latte">
+                <p>Smooth espresso with steamed milk.</p>
+                <span>$4.00</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <img src="image/Cappuccino.jpg" alt=Cappucino>
+                <p>Espresso with frothy milk.</p>
+                <span>$4.50</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Americano</h3>
+                <img src="image/Americano.jpg" alt="Americano">
+                <p>Espresso diluted with hot water.</p>
+                <span>$3.50</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div class="container">
+        <br>  
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Macchiato</h3>
+                <img src="image/Macchiato.jpg" alt="Macchiato">
+                <p>Espresso with a dash of steamed milk.</p>
+                <span>$3.75</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Mocha</h3>
+                <img src="image/Mocha.webp" alt="Mocha">
+                <p>Espresso with chocolate and steamed milk.</p>
+                <span>$4.75</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Cold Brew</h3>
+                <img src="image/ColdBrew.jpg" alt="Cold Brew">
+                <p>Slow-steeped coffee served cold.</p>
+                <span>$4.25</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Flat White</h3>
+                <img src="image/Flatwhite.jpg" alt="Flat White">
+                <p>Ristretto espresso with steamed milk.</p>
+                <span>$4.00</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <hr>
+        <h2>Coffee Beans</h2>
+        <br>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Coffee Liberica</h3>
+                <img src="image/Liberica(Coffealiberica).jpg" alt=Espresso>
+                <p> Liberica beans have a unique profile with a somewhat woody and smoky taste.</p>
+                <span>$2.00</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Coffee Excelsa</h3>
+                <img src="image/Excelsa(Coffeaexcelsa).webp" alt="Latte">
+                <p>Often grouped with Liberica as they share similar growing conditions.</p>
+                <span>$4.00</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Coffee Robusta</h3>
+                <img src="image/Robusta(Coffeacanephora).jpg" alt=Cappucino>
+                <p>Beans are more robust as the name suggests, containing more caffeine and having a stronger.</p>
+                <span>$4.50</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <h3>Coffea Arabica</h3>
+                <img src="image/Arabica(Coffeaarabica).jpg" alt="Americano">
+                <p>Arabica beans are highly popular and make up about 60-70% of the world's coffee.</p>
+                <span>$3.50</span>
+                <a href="cart.html" class="menu-btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<footer>
+    <div class="footer-container">
+        <div class="footer-about">
+            <h2>About Us</h2>
+            <p>At Coffee Haven, we are passionate about brewing the best coffee from around the world. Join us in our cozy cafe to enjoy a cup of perfection.</p>
+        </div>
+        <div class="footer-contact">
+            <h2>Contact Us</h2>
+            <p>Email: thuta4317@gmail.com</p>
+            <p>Phone: +95 9764397716</p>
+            <p>Address: Yangon,kamaryut Township, Time City</p>
+        </div>
+        <div class="footer-social">
+            <h2>Follow Us</h2>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Twitter</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Coffee Bean Boutique. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
